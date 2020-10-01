@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:background="#FFFFFF"
+        android:background="@color/layout_background"
         android:maxWidth="@dimen/layout_maxwidth"
         android:padding="@dimen/layout_padding">
 
@@ -76,7 +76,6 @@
             android:textColor="@color/text_fingerprint"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            android:visibility="invisible"
             app:layout_constraintRight_toRightOf="parent" />
 
     </android.support.constraint.ConstraintLayout>
