@@ -2,10 +2,14 @@
 
 <resources>
 
-    <style name="AppThemeD" parent="Theme.AppCompat.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="PinLock" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#303F9F</item>
+    </style>
+
 </resources>

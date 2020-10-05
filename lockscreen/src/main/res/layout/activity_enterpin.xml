@@ -30,6 +30,7 @@
             android:id="@+id/indicator_dots"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:theme="@style/PinLock"
             android:layout_margin="@dimen/dot_margintop"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -50,6 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/lockview_margin"
+            android:theme="@style/PinLock"
             app:layout_constraintBottom_toTopOf="@+id/fingerView"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -63,6 +65,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="@dimen/finger_icon_marginbottom"
             android:src="@drawable/ic_fingerprint"
+            android:visibility="gone"
             app:layout_constraintBottom_toTopOf="@+id/fingerText"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent" />
@@ -74,6 +77,7 @@
             android:layout_marginBottom="@dimen/finger_text_marginbottom"
             android:text="@string/pinlock_fingerprint"
             android:textColor="@color/text_fingerprint"
+            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent" />

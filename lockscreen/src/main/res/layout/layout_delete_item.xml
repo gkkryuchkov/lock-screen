@@ -12,7 +12,7 @@
         android:id="@+id/button"
         android:layout_width="@dimen/default_button_size"
         android:layout_height="@dimen/default_button_size"
-        android:background="@drawable/rectanglebutton_selector"
+        android:background="@drawable/circlebutton_selector"
         android:clickable="true"
         android:gravity="center">
 
